@@ -1,0 +1,16 @@
+//SegmentsId
+1sgbJ000002U4D7QAK
+1sgbJ000002U4ppQAC
+1sgbJ000002U24rQAC
+1sgbJ000002Th5FQAS
+1sgbJ000002U4jOQAS
+1sgbJ000002U3vNQAS
+1sgbJ000002dgCjQAI
+1sgbJ000001wDNhQAM
+
+
+//Buscar
+[{"objectApiName":"TBFS4ME_CADA_CONT_CORE_CLIE__dlm","fieldApiName":"cod_chav_coro_clie__c"},{"objectApiName":"Cadastro_Cartao_de_Credito__dlm","fieldApiName":"cod_chav_coro_clie__c"}]
+
+//Substituir
+[{"objectApiName":"TBFS4ME_CADA_CONT_CORE_CLIE__dlm","fieldApiName":"cod_chav_coro_clie__c"},{"objectApiName":"ssot__Individual__dlm","fieldApiName":"ssot__Id__c"}],[{"objectApiName":"ssot__Individual__dlm","fieldApiName":"ssot__Id__c"},{"objectApiName":"Informa_o_Cadastral_Conta_Cart_o__dlm","fieldApiName":"cod_chav_coro_clie__c"}],[{"objectApiName":"Informa_o_Cadastral_Conta_Cart_o__dlm","fieldApiName":"num_cccr__c"},{"objectApiName":"Cadastro_Cartao_de_Credito__dlm","fieldApiName":"num_cont_crto__c"}]

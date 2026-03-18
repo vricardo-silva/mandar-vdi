@@ -1,0 +1,8 @@
+SegmentsId
+1sgbJ000002555xQAA
+
+//Buscar
+[{"objectApiName":"Cadastro_Cartao_de_Credito__dlm","fieldApiName":"cod_chav_coro_clie__c"},{"objectApiName":"Posio_Investimento_Consolidado_v2__dlm","fieldApiName":"Codigo_Chave_Corporativo_Cliente__c"}],[{"objectApiName":"Posio_Investimento_Consolidado_v2__dlm","fieldApiName":"Codigo_Chave_Corporativo_Cliente__c"},{"objectApiName":"ssot__Individual__dlm","fieldApiName":"ssot__Id__c"}],[{"objectApiName":"ssot__Individual__dlm","fieldApiName":"ssot__Id__c"},{"objectApiName":"TBHF9ME_CLSR_PRSE_MODE_ATED__dlm","fieldApiName":"cod_chav_coro_clie__c"}]
+
+//Substituir
+[{"objectApiName":"Cadastro_Cartao_de_Credito__dlm","fieldApiName":"cod_chav_coro_clie__c"},{"objectApiName":"Informa_o_Cadastral_Conta_Cart_o__dlm","fieldApiName":"num_cccr__c"}],[{"objectApiName":"Informa_o_Cadastral_Conta_Cart_o__dlm","fieldApiName":"cod_chav_coro_clie__c"},{"objectApiName":"ssot__Individual__dlm","fieldApiName":"ssot__Id__c"}],[{"objectApiName":"ssot__Individual__dlm","fieldApiName":"ssot__Id__c"},{"objectApiName":"TBHF9ME_CLSR_PRSE_MODE_ATED__dlm","fieldApiName":"cod_chav_coro_clie__c"}]
