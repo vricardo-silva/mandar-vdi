@@ -1,0 +1,8 @@
+//SegmentsId
+1sgbJ000001w9iHQAQ
+
+//Buscar
+[{"objectApiName":"ssot__Individual__dlm","fieldApiName":"ssot__Id__c"},{"objectApiName":"Posio_Investimento_Consolidado_v2__dlm","fieldApiName":"Codigo_Chave_Corporativo_Cliente__c"}],[{"objectApiName":"Posio_Investimento_Consolidado_v2__dlm","fieldApiName":"Codigo_Chave_Corporativo_Cliente__c"},{"objectApiName":"Cadastro_Cartao_de_Credito__dlm","fieldApiName":"cod_chav_coro_clie__c"}],[{"objectApiName":"Cadastro_Cartao_de_Credito__dlm","fieldApiName":"cod_chav_coro_clie__c"},{"objectApiName":"TBFS4ME_CADA_CONT_CORE_CLIE__dlm","fieldApiName":"cod_chav_coro_clie__c"}],[{"objectApiName":"TBFS4ME_CADA_CONT_CORE_CLIE__dlm","fieldApiName":"Chave_Conta_Corrente__c"},{"objectApiName":"Oferta_Migra_o_Personnalite__dlm","fieldApiName":"cod_chav_unic_rgto__c"}]
+
+//Substituir
+[{"objectApiName":"ssot__Individual__dlm","fieldApiName":"ssot__Id__c"},{"objectApiName":"TBFS4ME_CADA_CONT_CORE_CLIE__dlm","fieldApiName":"cod_chav_coro_clie__c"}],[{"objectApiName":"TBFS4ME_CADA_CONT_CORE_CLIE__dlm","fieldApiName":"Chave_Conta_Corrente__c"},{"objectApiName":"Oferta_Migra_o_Personnalite__dlm","fieldApiName":"cod_chav_unic_rgto__c"}]

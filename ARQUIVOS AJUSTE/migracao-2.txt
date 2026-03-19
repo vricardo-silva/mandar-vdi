@@ -1,0 +1,8 @@
+//SegmentsId
+1sgbJ000001h2qnQAA
+
+//Buscar
+[{"objectApiName":"Cadastro_Cartao_de_Credito__dlm","fieldApiName":"cod_chav_coro_clie__c"},{"objectApiName":"TBFS4ME_CADA_CONT_CORE_CLIE__dlm","fieldApiName":"cod_chav_coro_clie__c"}],[{"objectApiName":"TBFS4ME_CADA_CONT_CORE_CLIE__dlm","fieldApiName":"C_digo_Chave_Unico_Conta__c"},{"objectApiName":"Migra_o_de_Conta__dlm","fieldApiName":"num_unic_cont__c"}]
+
+//Substituir
+[{"objectApiName":"Cadastro_Cartao_de_Credito__dlm","fieldApiName":"cod_chav_coro_clie__c"},{"objectApiName":"Informa_o_Cadastral_Conta_Cart_o__dlm","fieldApiName":"num_cccr__c"}],[{"objectApiName":"Informa_o_Cadastral_Conta_Cart_o__dlm","fieldApiName":"cod_chav_coro_clie__c"},{"objectApiName":"ssot__Individual__dlm","fieldApiName":"ssot__Id__c"}],[{"objectApiName":"ssot__Individual__dlm","fieldApiName":"ssot__Id__c"},{"objectApiName":"TBFS4ME_CADA_CONT_CORE_CLIE__dlm","fieldApiName":"cod_chav_coro_clie__c"}],[{"objectApiName":"TBFS4ME_CADA_CONT_CORE_CLIE__dlm","fieldApiName":"C_digo_Chave_Unico_Conta__c"},{"objectApiName":"Migra_o_de_Conta__dlm","fieldApiName":"num_unic_cont__c"}]

@@ -1,0 +1,8 @@
+//SegmentsId
+1sgbJ000002X88vQAC
+
+//Buscar
+[{"objectApiName":"TBFS4ME_CADA_CONT_CORE_CLIE__dlm","fieldApiName":"cod_chav_coro_clie__c"},{"objectApiName":"Cadastro_Cartao_de_Credito__dlm","fieldApiName":"cod_chav_coro_clie__c"}],[{"objectApiName":"Cadastro_Cartao_de_Credito__dlm","fieldApiName":"num_cont_crto__c"},{"objectApiName":"informa_o_Cadastral_CHPRAS__dlm","fieldApiName":"num_cont_prod_clie__c"}]
+
+//Path
+[{"objectApiName":"TBFS4ME_CADA_CONT_CORE_CLIE__dlm","fieldApiName":"cod_chav_coro_clie__c"},{"objectApiName":"ssot__Individual__dlm","fieldApiName":"ssot__Id__c"}],[{"objectApiName":"ssot__Individual__dlm","fieldApiName":"ssot__Id__c"},{"objectApiName":"informa_o_Cadastral_CHPRAS__dlm","fieldApiName":"num_cont_prod_clie__c"}]
