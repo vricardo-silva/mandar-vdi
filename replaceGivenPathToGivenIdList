@@ -1,0 +1,52 @@
+try {
+    // ===============================
+    // INPUTS
+    // ===============================
+    String pathToFind    = '[{"objectApiName":"TBFS4ME_CADA_CONT_CORE_CLIE__dlm","fieldApiName":"cod_chav_coro_clie__c"},{"objectApiName":"Cadastro_Cartao_de_Credito__dlm","fieldApiName":"cod_chav_coro_clie__c"}],[{"objectApiName":"Cadastro_Cartao_de_Credito__dlm","fieldApiName":"num_cont_crto__c"},{"objectApiName":"Informa_o_Cadastral_Conta_Cart_o__dlm","fieldApiName":"num_cccr__c"}]';
+    String pathToReplace = '[{"objectApiName":"TBFS4ME_CADA_CONT_CORE_CLIE__dlm","fieldApiName":"cod_chav_coro_clie__c"},{"objectApiName":"Individuo__dlm","fieldApiName":"ssot__Id__c"}],[{"objectApiName":"Individuo__dlm","fieldApiName":"ssot__Id__c"},{"objectApiName":"Informa_o_Cadastral_Conta_Cart_o__dlm","fieldApiName":"cod_chav_coro_clie__c"}]';
+
+    List<Id> segmentIdList = new List<Id>{
+    '1sgbJ000003cYuzQAE'
+    };
+
+    // ===============================
+    // LOGIC
+    // ===============================
+    List<MarketSegment> segmentsToUpdate = new List<MarketSegment>();
+
+    for (MarketSegment ms : [
+        SELECT Id, IncludeCriteria, ExcludeCriteria
+        FROM MarketSegment
+        WHERE Id IN :segmentIdList
+    ]) {
+        Boolean changed = false;
+
+        if (ms.IncludeCriteria != null && ms.IncludeCriteria.contains(pathToFind)) {
+            ms.IncludeCriteria = ms.IncludeCriteria.replace(pathToFind, pathToReplace);
+            changed = true;
+        }
+
+        if (ms.ExcludeCriteria != null && ms.ExcludeCriteria.contains(pathToFind)) {
+            ms.ExcludeCriteria = ms.ExcludeCriteria.replace(pathToFind, pathToReplace);
+            changed = true;
+        }
+
+        if (changed) {
+            segmentsToUpdate.add(ms);
+        }
+    }
+
+    if (!segmentsToUpdate.isEmpty()) {
+        update segmentsToUpdate;
+        System.debug('SUCCESS - Updated segments: ' + segmentsToUpdate.size());
+
+        for (MarketSegment ms : segmentsToUpdate) {
+            System.debug('Updated MarketSegment Id: ' + ms.Id);
+        }
+    } else {
+        System.debug('No records needed update.');
+    }
+
+} catch (Exception e) {
+    System.debug('ERROR: ' + e.getMessage());
+}
